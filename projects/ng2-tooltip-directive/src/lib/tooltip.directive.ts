@@ -14,6 +14,7 @@ export interface AdComponent {
 @Directive({
     selector: '[tooltip]',
     exportAs: 'tooltip',
+    standalone: false
 })
 
 export class TooltipDirective {
@@ -335,7 +336,7 @@ export class TooltipDirective {
                 this.appRef.detachView(this.componentRef.hostView);
                 this.componentRef.destroy();
                 this.events.emit({
-                    type: 'hidden', 
+                    type: 'hidden',
                     position: this.tooltipPosition
                 });
             }, options.fast ? 0 : this.destroyDelay);
