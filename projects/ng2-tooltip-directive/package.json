@@ -1,6 +1,6 @@
 {
   "name": "@logscl/ng2-tooltip-directive",
-  "version": "20.0.0",
+  "version": "21.0.0",
   "description": "Tooltip for Angular",
   "repository": {
     "type": "git",
@@ -27,10 +27,10 @@
     "url": "https://github.com/logscl/ng2-tooltip-directive/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^20.0.0",
-    "@angular/core": "^20.0.0"
+    "@angular/common": "^21.0.0",
+    "@angular/core": "^21.0.0"
   },
   "dependencies": {
-    "tslib": "^2.6.2"
+    "tslib": "^2.8.1"
   }
 }
